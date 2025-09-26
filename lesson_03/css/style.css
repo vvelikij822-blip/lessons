@@ -1,0 +1,39 @@
+@import url("reset.css");
+.title.big {
+    color: rgb(248, 71, 1);
+}
+.title{
+    color: blueviolet;
+}
+.text img{
+    width: 400px
+}
+.text {
+    color: rgb(4, 4, 117);
+}
+.wot-a-fxk {
+    color: red;
+    font-size: 20px;
+}
+.start-text {
+    color: brown;
+}
+
+.link {
+    color: blue;
+}
+.tel {
+    color: rgb(36, 0, 164);
+}
+li {
+    margin: 5px;
+    margin-left: 30px;
+    list-style: decimal;
+}
+ol {
+    color: brown;
+}
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
