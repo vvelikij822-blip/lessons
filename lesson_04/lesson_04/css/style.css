@@ -1,0 +1,80 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap');
+* {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url(../img/v904-nunny-006-b.jpg)
+}
+.title {
+    color: #3e2c02;
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+.title-big {
+    font-size: 32px;
+    line-height: 1.6; /* 32/20 */
+    text-align: center;
+}
+.head-text {
+    font-family: "Montserrat", "Arial", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgb(80, 32, 2);
+    text-shadow: 2px 3px 4px #000;
+}
+.text {
+    letter-spacing: 1.1px;
+    word-spacing: 7px;
+}
+.mistake {
+    text-decoration: line-through;
+}
+.link {
+    color: blue;
+    line-height: 1.6; /* 16/10 */
+}
+.montserrat-regular {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-weight: 400;
+    color: rgb(23, 59, 2);
+}
+.img {
+    max-width: 500px;
+}
+.montserrat-semibold {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-weight: 600;
+    color: rgb(56, 86, 1);
+}
+.lora-regular {
+    font-family: "Lora", "Times New Roman", serif;
+    font-weight: 400;
+    color: rgb(4, 90, 124);
+}
+.lora-medium {
+    font-family: "Lora", "Times New Roman", serif;
+    font-weight: 500;
+    color: rgb(4, 90, 124);
+}
+.praysire-demo-regular {
+    font-family: "Praysire Demo", "Times New Roman", serif;
+    font-weight: 400;
+    color: rgb(80, 0, 154);
+}
+.list li::before {
+        content: "✓"; /* Ваш символ */
+        margin-right: 10px; /* Отступ от символа до текста */
+        color: green; /* Цвет символа */
+}
+li {
+    color: #004210;
+}
+.tel {
+}
+P {
+    margin-bottom: 20px;
+}
