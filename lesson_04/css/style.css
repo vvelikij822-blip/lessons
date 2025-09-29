@@ -66,15 +66,24 @@ body {
     color: rgb(80, 0, 154);
 }
 .list li::before {
-        content: "✓"; /* Ваш символ */
-        margin-right: 10px; /* Отступ от символа до текста */
-        color: green; /* Цвет символа */
+        content: "✓";
+        margin-right: 10px;
+        color: green;
 }
 li {
     color: #004210;
 }
 .tel {
+    color: blue;
 }
 P {
     margin-bottom: 20px;
+}
+.prikol {
+        border: 0;
+        width: 88px;
+        height: 31px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
