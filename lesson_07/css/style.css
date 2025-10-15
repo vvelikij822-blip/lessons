@@ -258,7 +258,7 @@ main {
     visibility: visible;
 }
 .block.k {
-    background: url(/img/Mario-and-Luigi.jpg);
+    background: url(../img/Mario-and-Luigi.jpg);
     margin-left: -480px;
     margin-top: 100px;
     height: 347px;
@@ -276,4 +276,5 @@ main {
 .j:hover + .k{
     visibility: visible;
 }
+
 
