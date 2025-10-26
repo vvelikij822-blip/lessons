@@ -137,7 +137,7 @@ main {
 .limited-width-furniture__column p {
     margin-top: 10px;
 }
-.designed--big-with {
+.limited-width-furniture__column--big-with {
     min-width: 678px;
     text-align: center;
     background-color: #E6EFEA;
@@ -172,4 +172,3 @@ main {
     width: 170px;
     height: 170px;
 }
-
